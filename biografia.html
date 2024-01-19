@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="pl">
 <html>
     <head>
         <meta name = "viewport" content = "with = device-width, initial-scale=1.0">
@@ -8,14 +9,14 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.min.css">
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="icon" href="images/faviconn.ico" type="image/x-icon">
 <link rel="shortcut icon" href="images/faviconn.ico" type="image/x-icon">  
 </head>
     <body>
         <section class="sub-header">
 <nav>
-    <a href = "index.html"><img src="images/logo.png"></a>
+    <a href = "index.html"><img src="images/logo.png" alt=""></a>
     <div class = "nav-links" id="navLinks">
         <i class="fa-solid fa-xmark" onclick = "hideMenu()"></i>
         <ul>
@@ -127,13 +128,13 @@
                   <label for="q2">2. W którym roku Lana Del Rey wydała swój debiutancki album "Born to Die"?</label><br>
                   <input type="number" id="q2" name="q2" required><br><br>
               
-                  <label for="q3">3. Który z poniższych utworów nie jest piosenką Lany Del Rey?</label><br>
-                  <select id="q3" name="q3" required>
-                    <option value="summertime_sadness">Summertime Sadness</option>
-                    <option value="rolling_in_the_deep">Rolling in the Deep</option>
-                    <option value="video_games">Video Games</option>
-                  </select><br><br>
-              
+                <label for="q3">3. Który z poniższych utworów nie jest piosenką Lany Del Rey?</label><br>
+<select id="q3" name="q3" required>
+    <option value="">Wybierz opcję</option>
+    <option value="summertime_sadness">Summertime Sadness</option>
+    <option value="rolling_in_the_deep">Rolling in the Deep</option>
+    <option value="video_games">Video Games</option>
+</select><br><br>
                   <button type="button" onclick="checkAnswers()">Sprawdź odpowiedzi</button>
                 </form>
               
