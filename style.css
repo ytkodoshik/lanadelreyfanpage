@@ -631,10 +631,5 @@ audio {
         height:  150px; /* Możesz dostosować wysokość wideo do swoich preferencji */
         margin-bottom: 10px; /* Dodatkowy margines między teledyskami */
     }
-
-    #lanaCanvas {
-        width: 100%;
-        height: auto; /* Dostosuj szerokość, a wysokość dostosuje się automatycznie, zachowując proporcje */
-    }
 }
 
