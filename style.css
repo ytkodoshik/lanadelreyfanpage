@@ -631,5 +631,8 @@ audio {
         height:  150px; /* Możesz dostosować wysokość wideo do swoich preferencji */
         margin-bottom: 10px; /* Dodatkowy margines między teledyskami */
     }
+    .audio {
+        width: 60%;
+    }
 }
 
