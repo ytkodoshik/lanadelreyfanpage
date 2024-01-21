@@ -639,7 +639,7 @@ audio {
         width: 50%;
         margin-bottom: 10px;
     }
-      nav {
+     nav {
         padding: 2% 5%;
     }
 
@@ -655,7 +655,7 @@ audio {
         width: 100%;
         top: 60px;
         left: 0;
-        display: none;
+        display: flex; /* Pokazanie menu na małych ekranach */
     }
 
     .nav-links ul.show {
@@ -664,6 +664,14 @@ audio {
 
     .nav-links ul li {
         padding: 8px 0;
+    }
+
+    .nav-links ul li::after {
+        display: none; /* Ukrycie linii po najechaniu myszą na małych ekranach */
+    }
+
+    .nav-links {
+        position: relative;
     }
 }
 
