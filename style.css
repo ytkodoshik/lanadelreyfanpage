@@ -639,6 +639,32 @@ audio {
         width: 50%;
         margin-bottom: 10px;
     }
+      nav {
+        padding: 2% 5%;
+    }
+
+    nav img {
+        display: none; /* Ukrycie logo na małych ekranach */
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        text-align: center;
+        background-color: #a4040c;
+        position: absolute;
+        width: 100%;
+        top: 60px;
+        left: 0;
+        display: none;
+    }
+
+    .nav-links ul.show {
+        display: flex;
+    }
+
+    .nav-links ul li {
+        padding: 8px 0;
+    }
 }
 
 
