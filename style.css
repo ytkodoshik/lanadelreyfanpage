@@ -634,5 +634,9 @@ audio {
     .audio {
         width: 60%;
     }
+      .slider img {
+        width: 100%; /* Obrazy zajmują 100% szerokości dostępnej przestrzeni */
+        height: auto; /* Szerokość dostosuje się automatycznie, zachowując proporcje */
+    }
 }
 
