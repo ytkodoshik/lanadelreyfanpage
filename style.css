@@ -567,88 +567,16 @@ audio {
 /* Dodaj te reguły na końcu pliku style.css */
 
 @media(max-width: 700px) {
-    /* Reguły dla ekranów o szerokości do 600px */
-
     body {
-        font-size: 14px; /* Zmniejszenie ogólnej wielkości czcionki */
+        font-size: 14px;
     }
 
     .header {
-        min-height: 60vh; /* Zmniejszenie wysokości sekcji nagłówka */
-        padding: 10px; /* Zmniejszenie odstępów w nagłówku */
+        min-height: 60vh;
+        padding: 10px;
     }
 
     nav {
-        padding: 2% 3%; /* Zmniejszenie odstępów w nawigacji */
-    }
-
-    nav img {
-        width: 120px; /* Zmniejszenie szerokości logo */
-    }
-
-    .nav-links ul li {
-        padding: 8px 6px; /* Zmniejszenie odstępów w nawigacji */
-    }
-
-    .text-box {
-        width: 80%; /* Zmniejszenie szerokości tekstu na stronie głównej */
-    }
-
-    .text-box h1 {
-        font-size: 42px; /* Zmniejszenie wielkości nagłówka */
-    }
-
-    .text-box p {
-        font-size: 12px; /* Zmniejszenie wielkości tekstu */
-    }
-.row{ flex-direction:column;
-}
-      .course-column {
-        width: 100%; /* Ustawiaj pełną szerokość dla każdej kolumny na ekranie telefonu */
-        margin-bottom: 20px; /* Dodatkowy margines między kolumnami */
-    }
-    .campas-col,
-    .facilities-col {
-        flex-basis: 100%; /* Pełna szerokość dla kolumn w sekcjach z treściami */
-    }
-
-    .cta {
-        padding: 60px 0; /* Zmniejszenie odstępów w sekcji CTA */
-    }
-
-    .footer h4 {
-        font-size: 18px; /* Zmniejszenie wielkości nagłówka stopki */
-    }
-     .video-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    /* Dostosuj styl każdego teledysku */
-    .video-container iframe {
-        width: 100%;
-        height:  150px; /* Możesz dostosować wysokość wideo do swoich preferencji */
-        margin-bottom: 10px; /* Dodatkowy margines między teledyskami */
-    }
-       .slider-section {
-        padding: 20px; /* Dodatkowy padding dla lepszego odstępu od krawędzi */
-    }
-
-    .slider-container {
-        width: 100%; /* Slider zajmuje pełną szerokość dostępnej przestrzeni */
-    }
-
-    .slider img {
-        width: 100%; /* Obrazy zajmują 100% szerokości dostępnej przestrzeni */
-        height: auto; /* Szerokość dostosuje się automatycznie, zachowując proporcje */
-    }
-     audio {
-        width: 100%; /* Szerokość audio na pełną szerokość ekranu */
-        margin-bottom: 15px; /* Dodatkowy odstęp między odtwarzaczami */
-    }
-    /*nav*/
-      nav {
         padding: 2% 5%;
     }
 
@@ -664,11 +592,11 @@ audio {
         width: 100%;
         top: 60px;
         left: 0;
-        display: none; /* Ukrycie menu na małych ekranach */
+        display: none;
     }
 
     .nav-links ul.show {
-        display: flex; /* Pokazanie menu po kliknięciu w ikonę */
+        display: flex;
     }
 
     .nav-links ul li {
@@ -676,15 +604,15 @@ audio {
     }
 
     .fa-bars {
-        display: block; /* Pokazanie ikony menu na małych ekranach */
+        display: block;
     }
 
     .fa-xmark {
-        display: none; /* Ukrycie ikony zamykania na małych ekranach */
+        display: none;
     }
 
     .nav-links ul li::after {
-        display: none; /* Ukrycie linii po najechaniu myszą na małych ekranach */
+        display: none;
     }
 
     .nav-links {
@@ -696,7 +624,72 @@ audio {
         cursor: pointer;
         color: #fff;
     }
+
+    .text-box {
+        width: 80%;
+    }
+
+    .text-box h1 {
+        font-size: 42px;
+    }
+
+    .text-box p {
+        font-size: 12px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .course-column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .campas-col,
+    .facilities-col {
+        flex-basis: 100%;
+    }
+
+    .cta {
+        padding: 60px 0;
+    }
+
+    .footer h4 {
+        font-size: 18px;
+    }
+
+    .video-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video-container iframe {
+        width: 100%;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+
+    .slider-section {
+        padding: 20px;
+    }
+
+    .slider-container {
+        width: 100%;
+    }
+
+    .slider img {
+        width: 100%;
+        height: auto;
+    }
+
+    audio {
+        width: 100%;
+        margin-bottom: 15px;
+    }
 }
+
 .nav-links ul li:hover::after {
     width: 0; /* Usunięcie animacji rozciągania linii po najechaniu myszą */
 }
