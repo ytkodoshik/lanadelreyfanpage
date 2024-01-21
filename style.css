@@ -574,56 +574,6 @@ audio {
         min-height: 60vh;
         padding: 10px;
     }
-
-    nav {
-        padding: 2% 5%;
-    }
-
-    nav img {
-        width: 100px;
-    }
-
-    .nav-links ul {
-        flex-direction: column;
-        text-align: center;
-        background-color: #a4040c;
-        position: absolute;
-        width: 100%;
-        top: 60px;
-        left: 0;
-        display: none;
-    }
-
-    .nav-links ul.show {
-        display: flex;
-    }
-
-    .nav-links ul li {
-        padding: 8px 0;
-    }
-
-    .fa-bars {
-        display: block;
-    }
-
-    .fa-xmark {
-        display: none;
-    }
-
-    .nav-links ul li::after {
-        display: none;
-    }
-
-    .nav-links {
-        position: relative;
-    }
-
-    .fa-bars, .fa-xmark {
-        font-size: 20px;
-        cursor: pointer;
-        color: #fff;
-    }
-
     .text-box {
         width: 80%;
     }
