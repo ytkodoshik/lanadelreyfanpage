@@ -628,7 +628,7 @@ audio {
     /* Dostosuj styl każdego teledysku */
     .video-container iframe {
         width: 100%;
-        height: 200px; /* Możesz dostosować wysokość wideo do swoich preferencji */
+        height:  150px; /* Możesz dostosować wysokość wideo do swoich preferencji */
         margin-bottom: 10px; /* Dodatkowy margines między teledyskami */
     }
 
