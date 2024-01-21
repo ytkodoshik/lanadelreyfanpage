@@ -631,7 +631,15 @@ audio {
         height:  150px; /* Możesz dostosować wysokość wideo do swoich preferencji */
         margin-bottom: 10px; /* Dodatkowy margines między teledyskami */
     }
-      .slider img {
+       .slider-section {
+        padding: 20px; /* Dodatkowy padding dla lepszego odstępu od krawędzi */
+    }
+
+    .slider-container {
+        width: 100%; /* Slider zajmuje pełną szerokość dostępnej przestrzeni */
+    }
+
+    .slider img {
         width: 100%; /* Obrazy zajmują 100% szerokości dostępnej przestrzeni */
         height: auto; /* Szerokość dostosuje się automatycznie, zachowując proporcje */
     }
