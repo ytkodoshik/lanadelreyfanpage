@@ -564,21 +564,56 @@ audio {
    display: block; /* Ustawienie na blok, aby dostosować marginesy automatyczne */
 }
 /*responsywnosc*/
-@media (max-width:700px){
-    .text-box h1{
-        font-size:20px;
+/* Dodaj te reguły na końcu pliku style.css */
+
+@media only screen and (max-width: 600px) {
+    /* Reguły dla ekranów o szerokości do 600px */
+
+    body {
+        font-size: 14px; /* Zmniejszenie ogólnej wielkości czcionki */
     }
+
+    .header {
+        min-height: 60vh; /* Zmniejszenie wysokości sekcji nagłówka */
+        padding: 10px; /* Zmniejszenie odstępów w nagłówku */
+    }
+
+    nav {
+        padding: 2% 3%; /* Zmniejszenie odstępów w nawigacji */
+    }
+
+    nav img {
+        width: 120px; /* Zmniejszenie szerokości logo */
+    }
+
     .nav-links ul li {
-      display: block;
+        padding: 8px 6px; /* Zmniejszenie odstępów w nawigacji */
     }
-    .nav-links{
-      position: absolute;
-      background:#a4040c;
-      height: 100vh;
-      width:200px;
-      top: 0;
-      right: 0;
-      text-align: left;
-      z-index: 2;
+
+    .text-box {
+        width: 80%; /* Zmniejszenie szerokości tekstu na stronie głównej */
+    }
+
+    .text-box h1 {
+        font-size: 42px; /* Zmniejszenie wielkości nagłówka */
+    }
+
+    .text-box p {
+        font-size: 12px; /* Zmniejszenie wielkości tekstu */
+    }
+
+    .course-column,
+    .campas-col,
+    .facilities-col {
+        flex-basis: 100%; /* Pełna szerokość dla kolumn w sekcjach z treściami */
+    }
+
+    .cta {
+        padding: 60px 0; /* Zmniejszenie odstępów w sekcji CTA */
+    }
+
+    .footer h4 {
+        font-size: 18px; /* Zmniejszenie wielkości nagłówka stopki */
     }
 }
+
