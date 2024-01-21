@@ -643,5 +643,9 @@ audio {
         width: 100%; /* Obrazy zajmują 100% szerokości dostępnej przestrzeni */
         height: auto; /* Szerokość dostosuje się automatycznie, zachowując proporcje */
     }
+     audio {
+        width: 100%; /* Szerokość audio na pełną szerokość ekranu */
+        margin-bottom: 15px; /* Dodatkowy odstęp między odtwarzaczami */
+    }
 }
 
