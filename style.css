@@ -603,6 +603,9 @@ audio {
     }
 .row{ flex-direction:column;
 }
+    .video {
+        flex-direction:column;
+    }
       .course-column {
         width: 100%; /* Ustawiaj pełną szerokość dla każdej kolumny na ekranie telefonu */
         margin-bottom: 20px; /* Dodatkowy margines między kolumnami */
