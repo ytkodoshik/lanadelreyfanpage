@@ -602,7 +602,10 @@ audio {
         font-size: 12px; /* Zmniejszenie wielkości tekstu */
     }
 
-    .course-column,
+      .course-column {
+        width: 100%; /* Ustawiaj pełną szerokość dla każdej kolumny na ekranie telefonu */
+        margin-bottom: 20px; /* Dodatkowy margines między kolumnami */
+    }
     .campas-col,
     .facilities-col {
         flex-basis: 100%; /* Pełna szerokość dla kolumn w sekcjach z treściami */
