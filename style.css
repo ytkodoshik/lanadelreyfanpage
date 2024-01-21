@@ -566,7 +566,7 @@ audio {
 /*responsywnosc*/
 /* Dodaj te reguły na końcu pliku style.css */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     /* Reguły dla ekranów o szerokości do 600px */
 
     body {
@@ -601,7 +601,8 @@ audio {
     .text-box p {
         font-size: 12px; /* Zmniejszenie wielkości tekstu */
     }
-
+.row{ flex-direction:column;
+}
       .course-column {
         width: 100%; /* Ustawiaj pełną szerokość dla każdej kolumny na ekranie telefonu */
         margin-bottom: 20px; /* Dodatkowy margines między kolumnami */
