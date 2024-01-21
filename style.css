@@ -597,7 +597,7 @@ audio {
         margin-bottom: 20px;
     }
 
-    .campas-col,
+    .campus-col,
     .facilities-col {
         flex-basis: 100%;
     }
@@ -636,10 +636,12 @@ audio {
     }
 
     audio {
-        width: 50%;
-        margin-bottom: 10px;
+        width: 100%;
+        margin-bottom: 15px;
     }
-     nav {
+
+    /* Nowe reguły dla nawigacji bez ikonek */
+    nav {
         padding: 2% 5%;
     }
 
@@ -674,5 +676,3 @@ audio {
         position: relative;
     }
 }
-
-
