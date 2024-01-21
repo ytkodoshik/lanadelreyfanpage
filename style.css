@@ -603,9 +603,11 @@ audio {
     }
 .row{ flex-direction:column;
 }
-    .video {
-        flex-direction:column;
-    }
+    .video-container {
+  
+   grid-template-columns: repeat(1, 1fr); /* Uaktualnione na 4 kolumny */
+  
+}
       .course-column {
         width: 100%; /* Ustawiaj pełną szerokość dla każdej kolumny na ekranie telefonu */
         margin-bottom: 20px; /* Dodatkowy margines między kolumnami */
