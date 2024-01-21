@@ -565,7 +565,6 @@ audio {
 }
 /*responsywnosc*/
 /* Dodaj te reguły na końcu pliku style.css */
-
 @media(max-width: 700px) {
     body {
         font-size: 14px;
@@ -576,12 +575,48 @@ audio {
         padding: 10px;
     }
 
+    nav {
+        padding: 2% 5%;
+    }
+
+    nav img {
+        display: none;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        text-align: center;
+        background-color: #a4040c;
+        position: absolute;
+        width: 100%;
+        top: 60px;
+        left: 0;
+        display: flex;
+    }
+
+    .nav-links ul.show {
+        display: flex;
+    }
+
+    .nav-links ul li {
+        padding: 8px 0;
+    }
+
+    .nav-links ul li::after {
+        display: none;
+    }
+
+    .nav-links {
+        position: relative;
+    }
+
     .text-box {
         width: 80%;
     }
 
-    .text-box h1 {
+    h1 {
         font-size: 42px;
+        margin-top: 20px; /* Dodany margines między menu a nagłówkiem */
     }
 
     .text-box p {
@@ -639,40 +674,5 @@ audio {
         width: 100%;
         margin-bottom: 15px;
     }
-
-    /* Nowe reguły dla nawigacji bez ikonek */
-    nav {
-        padding: 2% 5%;
-    }
-
-    nav img {
-        display: none; /* Ukrycie logo na małych ekranach */
-    }
-
-    .nav-links ul {
-        flex-direction: column;
-        text-align: center;
-        background-color: #a4040c;
-        position: absolute;
-        width: 100%;
-        top: 60px;
-        left: 0;
-        display: flex; /* Pokazanie menu na małych ekranach */
-    }
-
-    .nav-links ul.show {
-        display: flex;
-    }
-
-    .nav-links ul li {
-        padding: 8px 0;
-    }
-
-    .nav-links ul li::after {
-        display: none; /* Ukrycie linii po najechaniu myszą na małych ekranach */
-    }
-
-    .nav-links {
-        position: relative;
-    }
 }
+
