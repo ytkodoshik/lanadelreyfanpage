@@ -580,7 +580,7 @@ audio {
     }
 
     nav img {
-        display: none;
+        width: 100px;
     }
 
     .nav-links ul {
@@ -591,7 +591,7 @@ audio {
         width: 100%;
         top: 60px;
         left: 0;
-        display: flex;
+        display: none;
     }
 
     .nav-links ul.show {
@@ -602,6 +602,14 @@ audio {
         padding: 8px 0;
     }
 
+    .fa-bars {
+        display: block;
+    }
+
+    .fa-xmark {
+        display: none;
+    }
+
     .nav-links ul li::after {
         display: none;
     }
@@ -610,13 +618,18 @@ audio {
         position: relative;
     }
 
+    .fa-bars, .fa-xmark {
+        font-size: 20px;
+        cursor: pointer;
+        color: #fff;
+    }
+
     .text-box {
         width: 80%;
     }
 
-    h1 {
+    .text-box h1 {
         font-size: 42px;
-        margin-top: 20px; /* Dodany margines między menu a nagłówkiem */
     }
 
     .text-box p {
@@ -632,7 +645,7 @@ audio {
         margin-bottom: 20px;
     }
 
-    .campus-col,
+    .campas-col,
     .facilities-col {
         flex-basis: 100%;
     }
