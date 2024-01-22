@@ -621,13 +621,10 @@ audio {
     }
 
     .audio {
-        width: 100%;
-        margin: auto;
-        margin-bottom: 15px;
+    display:none;
     }
     #lanaCanvas {
-   margin: auto; 
-   display: block; 
+ display:none;
 }
 }
 
