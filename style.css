@@ -626,5 +626,8 @@ audio {
     #lanaCanvas {
  display:none;
 }
+    nav img {
+  display:none;
+    }
 }
 
