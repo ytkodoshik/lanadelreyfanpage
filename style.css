@@ -623,7 +623,7 @@ audio {
     .audio {
     display:none;
     }
-   canvas#lanaCanvas {
+#lanaCanvas {
         display: block;
         margin: 0 auto; /* Centruj canvas na ekranie */
         max-width: 100%; /* Maksymalna szerokość równa szerokości ekranu */
@@ -680,13 +680,14 @@ audio {
         margin:auto;
     }
 .nav-links ul li a{
-    color: #fff;
-    text-decoration: none;
     font-size: 11px;
 }
     .nav-links{
     flex: 1;
     text-align: center;
+}
+    .nav-links ul li {
+    padding:8px 12px; 
 }
 }
 
