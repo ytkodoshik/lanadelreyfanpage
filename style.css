@@ -624,7 +624,8 @@ audio {
     display:none;
     }
     #lanaCanvas {
- display:none;
+ margin: auto; /* Automatyczne centrowanie */
+   display: block;
 }
     nav img {
   display:none;
