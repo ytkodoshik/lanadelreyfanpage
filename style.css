@@ -679,7 +679,11 @@ audio {
 .nav-links ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 13px;
+}
+    .nav-links{
+    flex: 1;
+    text-align: center;
 }
 }
 
