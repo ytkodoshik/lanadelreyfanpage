@@ -633,7 +633,7 @@ audio {
         height: auto;
     }
 
-    audio {
+    .audio {
         width: 50%;
         margin-bottom: 15px;
     }
