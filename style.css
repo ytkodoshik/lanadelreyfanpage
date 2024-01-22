@@ -672,5 +672,9 @@ audio {
     .slick-dots button:hover {
         background-color: #333;
     }
+    .slider-section {
+        width:70%;
+        margin:auto;
+    }
 }
 
