@@ -629,54 +629,48 @@ audio {
     nav img {
   display:none;
     }
-    /*slider*/
-    /* Dostosowanie slidera dla małych ekranów */
-.slider-container {
-    max-width: 100%;
-    overflow: hidden;
 }
+@media (max-width: 700px) {
+    /* Ukryj slider */
+    .slider {
+        display: none;
+    }
 
-.slider {
-    display: flex;
-    width: 100%;
-}
+    /* Pokaż tylko obrazy na małych ekranach */
+    .slider img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
 
-.slider img {
-    width: 100%;
-    height: auto;
-}
+    /* Dostosuj punkty nawigacyjne (dots) */
+    .slick-dots {
+        position: static; /* Zmiana pozycji */
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0; /* Dodaj padding */
+    }
 
-/* Dodatkowe dostosowanie punktów nawigacyjnych (dots) */
-.slick-dots {
-    position: absolute;
-    bottom: 15px;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
+    .slick-dots li {
+        margin: 0 5px;
+    }
 
-.slick-dots li {
-    margin: 0 5px;
-}
+    .slick-dots button {
+        font-size: 10px;
+        line-height: 1;
+        display: block;
+        padding: 5px;
+        color: #fff;
+        border: none;
+        background-color: #a4040c;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
 
-.slick-dots button {
-    font-size: 10px;
-    line-height: 1;
-    display: block;
-    padding: 5px;
-    color: #fff;
-    border: none;
-    background-color: #a4040c;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.slick-dots button:hover {
-    background-color: #333;
-}
+    .slick-dots button:hover {
+        background-color: #333;
+    }
 }
 
