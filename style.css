@@ -623,10 +623,12 @@ audio {
     .audio {
     display:none;
     }
-    #lanaCanvas {
- margin: auto; /* Automatyczne centrowanie */
-   display: block;
-}
+   canvas#lanaCanvas {
+        display: block;
+        margin: 0 auto; /* Centruj canvas na ekranie */
+        max-width: 100%; /* Maksymalna szerokość równa szerokości ekranu */
+        height: auto; /* Automatyczna wysokość, aby zachować proporcje */
+    }
     nav img {
   display:none;
     }
