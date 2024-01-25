@@ -143,7 +143,7 @@
 <span id="currentDateTime"></span>
 
 </section>
-<!-- Add this script at the end of your HTML file, just before the closing </body> tag -->
+
 <script>
     function updateDateTime() {
         const days = ['Niedziela', 'Poniedziałek', 'Wtorek', 'Środa', 'Czwartek', 'Piątek', 'Sobota'];
@@ -165,11 +165,11 @@
         document.getElementById('currentDateTime').innerText = formattedTime;
     }
 
-    // Call the function when the page loads
+   
     window.onload = function () {
         updateDateTime();
 
-        // Update the date and time every second
+        
         setInterval(updateDateTime, 1000);
     };
 </script>
