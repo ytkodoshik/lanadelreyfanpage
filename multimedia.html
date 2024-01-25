@@ -42,7 +42,7 @@
             <h1>Odkryj Artystyczną Duszę Lany Del Rey w Naszej Galerii</h1>
             <p>Zanurz się w wizualnym świecie Lany Del Rey poprzez naszą dobrze dobraną galerię. Każde zdjęcie to spojrzenie na fascynującą esencję jej muzyki, uchwycone momenty odzwierciedlające emocje i historie splecione w jej piosenkach.</p>
             <div class="row">
-                <!-- Dodatkowa zawartość lub funkcje związane z galerią mogą być dodane w obrębie sekcji "row" -->
+              
             </div>
         </section>
         
@@ -57,7 +57,7 @@
                     <img src="images/slider6.png" alt="Slide 6">
                     <img src="images/slider7.png" alt="Slide 7">
                     <img src="images/slider8.png" alt="Slide 8">
-                    <!-- Dodaj więcej obrazów do slidera -->
+                   
                 </div>
             </div>
         </div> 
@@ -65,26 +65,26 @@
             <h1>Teledyski muzyczne</h1>
             <p>Zanurz się w wizualnym świecie Lany Del Rey poprzez naszą dobrze dobraną galerię. Każde zdjęcie to spojrzenie na fascynującą esencję jej muzyki, uchwycone momenty odzwierciedlające emocje i historie splecione w jej piosenkach.</p>
             <div class="row">
-                <!-- Dodatkowa zawartość lub funkcje związane z galerią mogą być dodane w obrębie sekcji "row" -->
+              
             </div>
         </section>
         <div class="video">
             <div class="videos">
                 <div class="video-container">
-                    <!-- Dodaj pierwszy teledysk -->
+                   
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/JRWox-i6aAk" title="Odtwarzacz wideo YouTube" style="border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
         
-                    <!-- Dodaj drugi teledysk -->
+                   
                  <iframe width="560" height="315" src="https://www.youtube.com/embed/ZFWC4SiZBao" title="Odtwarzacz wideo YouTube" style="border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
         
-                    <!-- Dodaj trzeci teledysk -->
+                    
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/QnxpHIl5Ynw" title="Odtwarzacz wideo YouTube" style="border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
         
-                    <!-- Dodaj czwarty teledysk -->
+                    
                  <iframe width="560" height="315" src="https://www.youtube.com/embed/sxDdEPED0h8" title="Odtwarzacz wideo YouTube" style="border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/3-NTv0CdFCk?si=2uidr_6qG115gbg2" title="YouTube video player" style="border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -145,36 +145,35 @@ function updateDateTime() {
         document.getElementById('currentDateTime').innerText = formattedTime;
     }
 
-    // Call the function when the page loads
+  
     window.onload = function () {
         updateDateTime();
 
-        // Update the date and time every second
+        
         setInterval(updateDateTime, 1000);
     };
     //canvas//
     const canvas = document.getElementById('lanaCanvas');
         const ctx = canvas.getContext('2d');
 
-        // Załaduj obraz Lany Del Rey
+      
         const lanaImage = new Image();
-        lanaImage.src = 'images/canvas.jpg';  // Ścieżka do twojego obrazu
+        lanaImage.src = 'images/canvas.jpg';  
 
-        // Początkowa pozycja obrazu
+       
         let x = 0;
         let y = 0;
 
-        // Prędkość przesuwania obrazu
         let dx = 2;
         let dy = 1;
 
-        // Funkcja rysująca obraz Lany Del Rey na CANVAS
+      
         function drawLanaImage() {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
             ctx.drawImage(lanaImage, x, y, 230, 300);  // Dostosuj rozmiar obrazu
         }
 
-        // Funkcja aktualizująca klatkę animacji
+       
         function updateFrame() {
             x += dx;
             y += dy;
@@ -192,7 +191,7 @@ function updateDateTime() {
             requestAnimationFrame(updateFrame);
         }
 
-        // Uruchom animację po załadowaniu obrazu
+       
         lanaImage.onload = function () {
             updateFrame();
         };
