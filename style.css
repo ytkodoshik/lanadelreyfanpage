@@ -1,4 +1,4 @@
-/*---------------strona glowna------------------*/
+/*---------------home page------------------*/
 *{
     margin: 0;
     padding: 0;
@@ -271,7 +271,7 @@ padding: 18px 0;
  .fa-heart-o{
    color:#a4040c;
  }
- /*---------------biografia------------------*/
+ /*---------------biography------------------*/
  .sub-header{
 height: 50vh;
 width: 100%;
@@ -312,7 +312,7 @@ padding: 15px 0 25px ;
  .red-btn:hover{
    color: #fff;
  }
- /*---------------Galeria------------------*/
+ /*---------------Gallery------------------*/
  .blog-content{
 width: 80%;
 margin: auto;
@@ -380,7 +380,7 @@ flex-basis: 65%;
       font-size: 25%;
    }
 }*/
-/*-------------moje-------------*/
+
 .naglowek{
    font-size: 62px;
    font-family: 'Lobster', sans-serif;
@@ -392,9 +392,9 @@ flex-basis: 65%;
 
 .slider-container {
    position: relative;
-   border: 8px solid #fff; /* Grubość i kolor obramowania */
-   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Cień dla efektu 3D */
-   overflow: hidden; /* Ukrycie zawartości za pomocą obramowania */
+   border: 8px solid #fff; 
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+   overflow: hidden; 
 }
 
 .slider {
@@ -460,7 +460,7 @@ flex-basis: 65%;
    text-align: center;
  }
  
- /* Optional: Add styling for correct and incorrect answers */
+
  .correct-answer {
    color: #27ae60;
  }
@@ -468,28 +468,28 @@ flex-basis: 65%;
  .incorrect-answer {
    color: #e74c3c;
  }
-/*meow*/
+
 .video {
    margin: 20px;
 }
 
-/* Styl dla kontenera z teledyskami */
+
 .videos {
    display: flex;
    justify-content: center;
 }
 
-/* Styl dla kontenera teledysków */
+
 .video-container {
    display: grid;
-   grid-template-columns: repeat(2, 1fr); /* Uaktualnione na 4 kolumny */
+   grid-template-columns: repeat(2, 1fr); 
    gap: 20px;
 }
 
-/* Styl dla osadzonych teledysków */
+
 iframe {
    
-   height: 315px; /* Dostosuj wysokość do potrzeb */
+   height: 315px; 
    border: none;
    border-radius: 8px;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -499,17 +499,17 @@ iframe {
    width: 550px;
    margin: 10px;
 }
-/* Styl dla sekcji audio */
 
 
-/* Styl dla kontenera audio */
+
+
 .audio {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-around;
 }
 
-/* Styl dla kolumny z informacjami o utworze */
+
 .about-col {
    width: 300px;
    margin: 15px;
@@ -520,7 +520,7 @@ iframe {
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Styl dla przycisku do sprawdzania teledysku */
+
 .hero-btn {
    display: inline-block;
    padding: 10px 20px;
@@ -534,18 +534,18 @@ iframe {
    transition: background-color 0.3s ease;
 }
 
-/* Styl dla przycisku po najechaniu myszą */
+
 .hero-btn:hover {
    background-color: #850208;
 }
 
-/* Styl dla kontrolek audio */
+
 audio {
    width: 100%;
    margin-top: 10px;
 }
 
-/* Styl dla listy audio */
+
 .audio-list {
    display: flex;
    flex-wrap: wrap;
@@ -560,11 +560,10 @@ audio {
 }
 /*canvas*/
 #lanaCanvas {
-   margin: auto; /* Automatyczne centrowanie */
-   display: block; /* Ustawienie na blok, aby dostosować marginesy automatyczne */
+   margin: auto; 
+   display: block; 
 }
-/*responsywnosc*/
-/* Dodaj te reguły na końcu pliku style.css */
+
 @media(max-width: 700px) {
     body {
         font-size: 14px;
@@ -625,34 +624,34 @@ audio {
     }
 #lanaCanvas {
         display: block;
-        margin: 0 auto; /* Centruj canvas na ekranie */
-        max-width: 100%; /* Maksymalna szerokość równa szerokości ekranu */
-        height: auto; /* Automatyczna wysokość, aby zachować proporcje */
+        margin: 0 auto; 
+        max-width: 100%; 
+        height: auto; 
     }
     nav img {
   display:none;
     }
 }
 @media (max-width: 700px) {
-    /* Ukryj slider */
+
     .slider {
         display: none;
     }
 
-    /* Pokaż tylko obrazy na małych ekranach */
+
     .slider img {
         display: block;
         width: 100%;
         height: auto;
     }
 
-    /* Dostosuj punkty nawigacyjne (dots) */
+
     .slick-dots {
-        position: static; /* Zmiana pozycji */
+        position: static; 
         list-style: none;
         display: flex;
         justify-content: center;
-        padding: 10px 0; /* Dodaj padding */
+        padding: 10px 0; 
     }
 
     .slick-dots li {
@@ -690,4 +689,5 @@ audio {
     padding:8px 12px; 
 }
 }
+
 
