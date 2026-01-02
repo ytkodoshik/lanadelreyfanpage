@@ -37,7 +37,7 @@ This project was created to showcase front-end development skills while paying t
 └── README.md               # Project documentation
 ```
 
-##  Getting Started
+##  Run Locally
 
 To view this project on your local machine:
 
