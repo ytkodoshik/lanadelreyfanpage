@@ -24,7 +24,7 @@ This project was created to showcase front-end development skills while paying t
 
 ##  Project Structure
 
-```text
+
 .
 ├── audio/                  # Audio tracks for the music section
 ├── font-awesome-4.7.0/     # Icon library files
